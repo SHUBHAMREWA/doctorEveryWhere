@@ -102,7 +102,7 @@ export default function XrayServices() {
             >
               <h3 className="text-xl font-bold text-teal-900 mb-2">{service.title}</h3>
               <p className="text-gray-600 text-sm mb-4 flex-grow">{service.description}</p>
-              <div className="text-3xl font-bold text-teal-600 mb-4">{service.price}</div>
+              {/* <div className="text-3xl font-bold text-teal-600 mb-4">{service.price}</div> */}
               <button
                 onClick={() => handleWhatsAppClick(service.whatsappMessage)}
                 className="w-full bg-teal-600 hover:bg-teal-700 text-white py-2.5 px-4 rounded-lg font-semibold flex items-center justify-center shadow-md cursor-pointer transition-colors duration-200"

@@ -119,7 +119,7 @@ const DoctorSpecialtyGrid = () => {
                   className="w-full bg-teal-600 hover:bg-teal-700 text-white py-2 px-3 rounded-md text-sm font-medium flex items-center justify-center transition-colors duration-200"
                 >
                   <WhatsAppIcon className="h-4 w-4 mr-1" />
-                  WhatsApp
+                 Book Now
                 </button>
               </div>
             </div>

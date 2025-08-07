@@ -22,11 +22,11 @@ export default function HomePageHero() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    // email: "",
     phone: "",
     service: "doctor-consultation",
-    date: "",
-    time: "",
+    // date: "",
+    // time: "",
   })
   const [showModal, setShowModal] = useState(false)
   const [modalContent, setModalContent] = useState({ type: "", message: "" })
@@ -90,11 +90,11 @@ export default function HomePageHero() {
         setShowModal(true)
         setFormData({
           name: "",
-          email: "",
+          // email: "",
           phone: "",
           service: "doctor-consultation",
-          date: "",
-          time: "",
+          // date: "",
+          // time: "",
         })
       } else {
         const { message } = await res.json()
@@ -109,7 +109,7 @@ export default function HomePageHero() {
   /* ──────────────────────── render ──────────────────────── */
   return (
     <section className="container mx-auto px-4 flex items-center justify-center min-h-[80vh] lg:min-h-[90vh]">
-      {/* ░░░░░░░░░░░░░░ background slider + overlay ░░░░░░░░░░░░░░ */}
+      {/* ░░░░░░░░░░░░░░░ background slider + overlay ░░░░░░░░░░░░░░ */}
       <div className="absolute inset-0 -z-10">
         <AnimatePresence>
           {slides.map(
@@ -178,7 +178,7 @@ export default function HomePageHero() {
                                  bg-teal-600 hover:bg-teal-700 transition">
                 Book Appointment
               </button>
-              <button className="rounded-xl px-8 py-3 font-semibold border-2
+              <button className="hidden rounded-xl px-8 py-3 font-semibold border-2
                                  border-white hover:bg-white hover:text-teal-800 transition">
                 Learn More
               </button>
@@ -215,7 +215,7 @@ export default function HomePageHero() {
               </div>
 
               {/* email & phone */}
-              <input
+              {/* <input
                 required
                 type="email"
                 placeholder="Email Address"
@@ -226,7 +226,8 @@ export default function HomePageHero() {
                 className="w-full px-3 py-2 text-sm rounded-lg
                            bg-white/80 text-black placeholder-gray-500
                            border border-gray-300 focus:ring-2 focus:ring-teal-500"
-              />
+              /> */}
+
               <input
                 required
                 type="tel"
@@ -256,7 +257,8 @@ export default function HomePageHero() {
               </select>
 
               {/* date + time */}
-              <div className="grid grid-cols-2 gap-2">
+
+              {/* <div className=" grid  grid-cols-2 gap-2">
                 <div className="relative">
                   <Calendar className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
                   <input
@@ -285,7 +287,8 @@ export default function HomePageHero() {
                                focus:ring-2 focus:ring-teal-500"
                   />
                 </div>
-              </div>
+              </div> */}
+
 
               {/* submit */}
               <button

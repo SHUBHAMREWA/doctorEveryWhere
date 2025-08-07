@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-teal-400 mb-4">DoctorEveryWhere</h3>
             <p className="text-gray-400 text-sm mb-5">
-              Your trusted partner in medical care. From online consultations to diagnostics—accessible anytime, anywhere.
+            Your trusted partner in medical care in Gurgaon, Haryana, India. From online consultations to diagnostics—accessible anytime, anywhere.
             </p>
             <div className="flex gap-3">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, idx) => (

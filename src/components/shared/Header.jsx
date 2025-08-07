@@ -10,10 +10,10 @@ export default function Header() {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
     { name: "Doctor Consultation", href: "/doctor-consultation" },
-    { name: "Blood Test", href: "/blood-test" },
     { name: "X-Ray", href: "/xray" },
+    { name: "Blood Test", href: "/blood-test" }, 
+    { name: "About Us", href: "/about-us" },
   ]
 
   return (
@@ -41,7 +41,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <div className="relative">
-              <Image src="/logo.jpg" alt="doctorlogo" width={150} height={50} className="relative z-10" />
+              <Image src="/logo3.png" alt="doctorlogo" width={150} height={50} className="relative z-10" />
             </div>
         
           </Link>
@@ -83,12 +83,12 @@ export default function Header() {
         <div className="flex items-center justify-between px-6 py-5 border-b">
           <Link href="/" onClick={() => setIsMenuOpen(false)}>
             <Image
-              src="/logo.svg"
+              src="/logo3.png"
               alt="DoctorEveryWhere Logo"
               width={1000}
               height={1000}
               priority
-              className="w-[100px] h-[100px]" // 👈 Same size for mobile
+              className="w-[170px] h-[80px]" // 👈 Same size for mobile
             />
           </Link>
           <button

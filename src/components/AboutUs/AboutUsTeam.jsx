@@ -28,7 +28,7 @@ export default function AboutUsTeam() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-emerald-600">
-            Meet Our Expert Team
+            Meet Partner With Us
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
             Our dedicated professionals are here to ensure top-tier healthcare with compassion and precision.

@@ -2,7 +2,8 @@
 import './globals.css'
 import Header from '@/components/shared/Header'
 import Footer from '@/components/shared/Footer'
-import ClientLayout from '@/components/shared/ClientLayout'
+import ClientLayout from '@/components/shared/ClientLayout' 
+import Specialist from "./../components/shared/Specialist"
 
 export const metadata = {
   title: "DoctorEveryWhere - Medical Services & Consultations",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <ClientLayout>
           <main>{children}</main>
         </ClientLayout>
+        <Specialist/>
         <Footer />
       </body>
     </html>

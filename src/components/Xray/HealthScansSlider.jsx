@@ -215,14 +215,14 @@ export default function HealthScansSlider() {
                   </div>
                   <div className="p-4">
                     <p className="text-sm text-gray-600 mb-3 line-clamp-2">{test.description}</p>
-                    <div className="text-lg font-bold text-teal-600 mb-4">Starting @ {test.price}</div>
+                    {/* <div className="text-lg font-bold text-teal-600 mb-4">Starting @ {test.price}</div> */}
                     <div className="space-y-3">
                       <button
                         onClick={() => handleWhatsAppClick(test)}
                         className="w-full bg-teal-600 text-white py-2.5 px-4 rounded-lg font-semibold flex items-center justify-center shadow-md cursor-pointer hover:bg-teal-700 transition-colors duration-200"
                       >
                         <WhatsAppIcon className="h-5 w-5 mr-2" />
-                        WhatsApp
+                        Book Now
                       </button>
                     </div>
                   </div>
