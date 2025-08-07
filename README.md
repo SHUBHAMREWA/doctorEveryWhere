@@ -7,7 +7,7 @@
   
   **A modern, responsive healthcare platform connecting patients with medical professionals**
   
-  [🚀 Live Demo](#) | [📖 Documentation](#documentation) | [🐛 Report Bug](#contributing)
+  [🚀 Live Demo](https://doctor-every-where.vercel.app/) 
 </div>
 
 ---
