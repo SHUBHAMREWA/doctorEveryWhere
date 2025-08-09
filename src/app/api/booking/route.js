@@ -23,11 +23,8 @@ export async function POST(request) {
       html: `
         <h2>New ${service} Booking</h2>
         <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Service:</strong> ${service}</p>
-        <p><strong>Date:</strong> ${date}</p>
-        <p><strong>Time:</strong> ${time}</p>
         ${specialty ? `<p><strong>Specialty:</strong> ${specialty}</p>` : ""}
         ${testType ? `<p><strong>Test Type:</strong> ${testType}</p>` : ""}
         ${notes ? `<p><strong>Notes:</strong> ${notes}</p>` : ""}

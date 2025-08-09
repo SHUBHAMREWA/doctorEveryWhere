@@ -24,11 +24,21 @@ export default function Header() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center">
               <Phone className="h-4 w-4 mr-1" />
-              <span>+1 (555) 123-4567</span>
+              <span>
+                 <a href="tel:9211013699">  +91 9211013699 </a>
+              </span>
             </div>
             <div className="flex items-center">
               <Mail className="h-4 w-4 mr-1" />
-              <span>info@doctoreverywhere.com</span>
+              <span>
+                  <a
+                  className="decoration-0"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=doctoreverywhere.in@gmail.com"
+                  target="_blank"
+                  >
+                  doctoreverywhere.in@gmail.com
+                  </a>
+              </span>
             </div>
           </div>
           <div>

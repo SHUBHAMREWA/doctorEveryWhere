@@ -73,15 +73,21 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-start">
                 <Phone className="h-4 w-4 text-teal-400 mr-3 mt-0.5" />
-                +91 98765 43210
+                <a href="tel:9211013699">  +91 9211013699 </a>
               </li>
               <li className="flex items-start">
                 <Mail className="h-4 w-4 text-teal-400 mr-3 mt-0.5" />
-                support@doctoreverywhere.in
+                  <a
+                  className="decoration-0"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=doctoreverywhere.in@gmail.com"
+                  target="_blank"
+                  >
+                  doctoreverywhere.in@gmail.com
+                  </a>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 text-teal-400 mr-3 mt-0.5" />
-                101 Health Street, Sector 5, New Delhi, India
+                  <a href="" target="_blank"> Gurgaon/Delhi NCR </a>
               </li>
             </ul>
           </div>
