@@ -133,12 +133,14 @@ const Specialist = () => {
    
    {/* ▒▒▒▒▒▒▒  Specialization  ▒▒▒▒▒▒▒ */}
       <div>
-          <h1 className='font-bold mb-2' >Specialities</h1>
+          <h1 className='font-bold mb-2 text-[13px] md:text-[18px]' >Specialities</h1>
           <ul className='flex flex-col gap-1 text-[12px]'> 
             
                {
                 specialities && specialities.map((el, index)=>{ 
-                          return <li key={index}> {el} </li>
+                          return <li 
+                          className='text-[10px] md:text-[12px]'
+                           key={index}> {el} </li>
                 })
                }
           </ul>
@@ -148,12 +150,14 @@ const Specialist = () => {
        
    {/* ▒▒▒▒▒▒▒  More Specialities  ▒▒▒▒▒▒▒ */}
       <div>
-          <h1 className='font-bold mb-2' >More Specialities</h1>
+          <h1 className='font-bold mb-2 text-[13px] md:text-[18px]' >More Specialities</h1>
           <ul className='flex flex-col gap-1 text-[12px]'> 
             
                {
                 moreSpecialities && moreSpecialities.map((el, index)=>{ 
-                          return <li key={index}> {el} </li>
+                          return <li 
+                          className='text-[10px] md:text-[12px]'
+                           key={index}> {el} </li>
                 })
                }
           </ul>
@@ -163,12 +167,14 @@ const Specialist = () => {
              
    {/* ▒▒▒▒▒▒▒   Health Packages  ▒▒▒▒▒▒▒ */}
       <div>
-          <h1 className='font-bold mb-2' > Health Packages </h1>
+          <h1 className='font-bold mb-2 text-[13px] md:text-[18px]' > Health Packages </h1>
           <ul className='flex flex-col gap-1 text-[12px]'> 
             
                {
                  healthPackages && healthPackages.map((el, index)=>{ 
-                          return <li key={index}> {el} </li>
+                          return <li 
+                          className='text-[10px] md:text-[12px]'
+                           key={index}> {el} </li>
                 })
                }
           </ul>
@@ -178,12 +184,14 @@ const Specialist = () => {
 
     {/* ▒▒▒▒▒▒▒  labTests  ▒▒▒▒▒▒▒ */}
       <div>
-          <h1 className='font-bold mb-2' >Lab Tests </h1>
+          <h1 className='font-bold mb-2 text-[13px] md:text-[18px]' >Lab Tests </h1>
           <ul className='flex flex-col gap-1 text-[12px]'> 
             
                {
                  labTests && labTests.map((el, index)=>{ 
-                          return <li key={index}> {el} </li>
+                          return <li  
+                          className='text-[10px] md:text-[12px]'
+                           key={index}> {el} </li>
                 })
                }
           </ul>
@@ -193,12 +201,14 @@ const Specialist = () => {
 
        {/* ▒▒▒▒▒▒▒  Scans  ▒▒▒▒▒▒▒ */}
       <div>
-          <h1 className='font-bold mb-2' >Scans </h1>
+          <h1 className='font-bold mb-2 text-[13px] md:text-[18px]' >Scans </h1>
           <ul className='flex flex-col gap-1 text-[12px]'> 
             
                {
                  scans && scans.map((el, index)=>{ 
-                          return <li key={index}> {el} </li>
+                          return <li 
+                          className='text-[10px] md:text-[12px]'
+                           key={index}> {el} </li>
                 })
                }
           </ul>
