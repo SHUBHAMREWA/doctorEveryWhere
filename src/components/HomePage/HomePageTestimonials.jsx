@@ -4,21 +4,21 @@ export default function HomePageTestimonials() {
   const testimonials = [
     {
       name: "Anjali Mehta",
-      role: "Patient, Mumbai",
+      role: "Patient, Gurgaon",
       image: "/placeholder.svg?height=80&width=80&text=A",
       rating: 5,
       text: "The doctor consultation was really smooth and helpful. I'm thankful for the quick diagnosis and advice.",
     },
     {
       name: "Rohit Sharma",
-      role: "Patient, Delhi",
+      role: "Patient, Gurgaon",
       image: "/placeholder.svg?height=80&width=80&text=R",
       rating: 5,
       text: "Got my blood test results within hours. Hassle-free service and very professional lab staff!",
     },
     {
       name: "Priya Verma",
-      role: "Patient, Bengaluru",
+      role: "Patient, Gurgaon",
       image: "/placeholder.svg?height=80&width=80&text=P",
       rating: 5,
       text: "X-Ray center was well-equipped, and the doctor took time to explain everything. Excellent experience!",

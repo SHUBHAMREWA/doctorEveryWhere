@@ -2,7 +2,8 @@
 
 import WhatsAppIcon from "@mui/icons-material/WhatsApp"
 
-export default function DoctorConsultationSpecialties() {
+export default function DoctorConsultationSpecialties() {  
+  
   const doctors = [
     {
       id: 1,

@@ -8,7 +8,7 @@ export default function DoctorConsultationPage() {
     <div>
       <DoctorConsultationHero />
       <DoctorSpecialtyGrid />
-      <DoctorConsultationSpecialties />
+      {/* <DoctorConsultationSpecialties /> */}
       {/* <DoctorConsultationBooking /> */}
     </div>
   )
