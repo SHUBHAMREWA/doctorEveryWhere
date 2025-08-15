@@ -129,7 +129,7 @@ const Specialist = () => {
 
 
   return (
-    <div  className='grid grid-cols-5   p-2 gap-2' > 
+    <div  className='hidden md:grid grid-cols-5 p-2 gap-2' > 
    
    {/* ▒▒▒▒▒▒▒  Specialization  ▒▒▒▒▒▒▒ */}
       <div>

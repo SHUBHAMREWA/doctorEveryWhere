@@ -18,7 +18,7 @@ export async function POST(request) {
     // Email content
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "doctoreverywhere.in@gmail.com", // Or your desired recipient email
+      to: "doctoreverywhere.in@gmail.com",
       subject: `New ${service || "Contact"} Request from ${name}`,
       html: `
         <div style="font-family: sans-serif; line-height: 1.6; color: #333;">

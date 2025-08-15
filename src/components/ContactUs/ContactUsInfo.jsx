@@ -5,17 +5,17 @@ export default function ContactUsInfo() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      details: ["+91 9211013699"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@doctoreverywhere.com", "support@doctoreverywhere.com"],
+      details: ["doctoreverywhere.in@gmail.com"],
     },
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Medical Center Drive", "Health City, HC 12345"],
+      details: [" Gurgaon, Haryana ,India"],
     },
     {
       icon: Clock,
