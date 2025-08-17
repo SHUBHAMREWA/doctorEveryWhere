@@ -35,19 +35,22 @@ export default function HomePageHero() {
   const slides = [
     {
       image:
-        "/homeheroslide1.jpg?height=640&width=1280&text=Expert Medical Care&bg-color=14b8a6",
+        // "/homeheroslide1.jpg?height=640&width=1280&text=Expert Medical Care&bg-color=14b8a6",
+        "/slidimages/img1.png" ,
       title: "Expert Medical Care",
       subtitle: "Connect with qualified doctors anytime",
     },
     {
       image:
-        "/bloodtest.jpg?height=640&width=1280&text=Comprehensive Blood Tests&bg-color=0d9488",
+        // "/bloodtest.jpg?height=640&width=1280&text=Comprehensive Blood Tests&bg-color=0d9488",
+       "/slidimages/img2.png" ,
       title: "Comprehensive Blood Tests",
       subtitle: "Accurate results with fast turnaround",
     },
     {
       image:
-        "/advancedray.jpg?height=640&width=1280&text=Advanced X‑Ray Services&bg-color=0f766e",
+        // "/advancedray.jpg?height=640&width=1280&text=Advanced X‑Ray Services&bg-color=0f766e",
+        "/slidimages/img3.png" ,
       title: "Advanced X‑Ray Services",
       subtitle: "State‑of‑the‑art imaging technology",
     },
@@ -119,7 +122,7 @@ export default function HomePageHero() {
                   key={i}
                   src={slide.image}
                   alt={slide.title}
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-fill"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
